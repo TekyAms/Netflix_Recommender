@@ -62,5 +62,5 @@ Dataset Netflix disponible sur Kaggle :
 ## 👩🏾‍💻 Auteure
 
 **Tèkiyath Amoussa**
-Ingénieure Data & IA | Dakar, Sénégal 🇧🇯
+Ingénieure Data & IA | Dakar, Sénégal 
 [LinkedIn](https://www.linkedin.com/in/t%C3%A8kiyath-amoussa-506918274/) | [GitHub](https://github.com/TekyAms)
