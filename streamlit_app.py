@@ -29,12 +29,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Charger le modèle une seule fois
-@st.cache_resource 
+@st.cache_resource
 def load_model():
+    from recommender import init
     init("netflix_titles.csv")
-    return True
+    from recommender import df, cosine_sim, indices
+    return df, cosine_sim, indices
 
-load_model()
+df, cosine_sim, indices = load_model()
 
 # Titre principal
 st.markdown("<h1 style='text-align:center; color:#E50914;'>🎬 Netflix Recommender</h1>", unsafe_allow_html=True)
